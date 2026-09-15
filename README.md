@@ -24,7 +24,7 @@ By default the Input Toolbar is hidden from the prompt editor. The sample enable
 
 ## Input Toolbar Items
 
-The sample populates the `InputToolbarItems` collection with three quick-action buttons covering the most common scenarios. The Attach File button opens a file picker and attaches the chosen file to the prompt, the Upload Image button is reserved for image upload workflows, and the Record Audio button is reserved for voice input workflows. Each `InputToolbarItem` is configured with a unique Name, an informative ToolTip, a glyph or short Text, and an IsVisible flag so buttons can be toggled as needed.
+The sample populates the `InputToolbarItems` collection with two quick-action buttons covering the most common scenarios. The Attach File button opens a file picker and attaches the chosen file to the prompt and the Record Audio button is reserved for voice input workflows. Each `InputToolbarItem` is configured with a unique Name, an informative ToolTip, a glyph or short Text, and an IsVisible flag so buttons can be toggled as needed.
 
 ## Responding to Toolbar Clicks
 
@@ -50,8 +50,4 @@ Two helper utilities support the toolbar-driven file workflow. One helper format
 
 ## Running the Sample
 
-Open `AIAssistView/AssistView_NET462.sln` in Visual Studio, restore NuGet packages, and run the project. After configuring the AI credentials through the in-app `AISettingsForm`, start a chat session. The Input Toolbar appears next to the prompt editor with the Attach, Image Upload, and Voice Input quick-action buttons ready for use.
-
-## Topics
-
-winforms syncfusion ai-assistview input-toolbar csharp windows-forms sfaiassistview attachments toast-notifications chatbot conversational-ai
+Open `AIAssistView/AssistView_NET462.sln` in Visual Studio, restore NuGet packages, and run the project. After configuring the AI credentials through the in-app `AISettingsForm`, start a chat session. The Input Toolbar appears next to the prompt editor with the Attach and Voice Input quick-action buttons ready for use.
