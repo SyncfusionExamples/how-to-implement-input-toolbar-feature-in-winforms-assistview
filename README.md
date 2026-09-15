@@ -51,3 +51,6 @@ Two helper utilities support the toolbar-driven file workflow. One helper format
 ## Running the Sample
 
 Open `AIAssistView/AssistView_NET462.sln` in Visual Studio, restore NuGet packages, and run the project. After configuring the AI credentials through the in-app `AISettingsForm`, start a chat session. The Input Toolbar appears next to the prompt editor with the Attach and Voice Input quick-action buttons ready for use.
+
+## References
+[Syncfusion WinForms AssistView (SfAIAssistView - InputToolBar Feature)](https://help.syncfusion.com/windowsforms/ai-assistview/input-toolbar)   
